@@ -1,0 +1,93 @@
+/* Write your CSS here */
+@media screen and (max-width: 768px) {
+  .color-con {
+    background-color: #93c5fd;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .White-con {
+    background-color: #fff;
+    min-height: 20vh;
+    max-height: 30vh;
+    width: 90%;
+    flex-direction: column;
+    display: flex;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+  }
+  * {
+    font-family: 'Roboto';
+  }
+  .heading {
+    color: #323f4b;
+    font-size: 20px;
+  }
+  .input-and-des {
+    display: flex;
+    flex-direction: row;
+  }
+  .description {
+    color: #323f4b;
+    font-size: 17px;
+    margin-top: 24px;
+    padding-left: 20px;
+  }
+  .input {
+    height: 4vh;
+    margin-top: 22px;
+  }
+  .country {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+@media screen and (min-width: 900px) {
+  .color-con {
+    background-color: #93c5fd;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .White-con {
+    background-color: #fff;
+    min-height: 20vh;
+    max-height: 30vh;
+    width: 40%;
+    flex-direction: column;
+    display: flex;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+  }
+  * {
+    font-family: 'Roboto';
+  }
+  .heading {
+    color: #323f4b;
+    font-size: 30px;
+  }
+  .input-and-des {
+    display: flex;
+    flex-direction: row;
+  }
+  .description {
+    color: #323f4b;
+    font-size: 17px;
+    margin-top: 24px;
+    padding-left: 20px;
+  }
+  .input {
+    height: 4vh;
+    margin-top: 22px;
+  }
+  .country {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
